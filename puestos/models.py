@@ -1,0 +1,9 @@
+from django.db import models
+
+
+class Puestos(models.Model):
+
+    name = models.CharField(max_length=100)
+    description = models.CharField(max_length=500)
+
+
